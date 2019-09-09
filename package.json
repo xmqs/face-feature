@@ -7,8 +7,8 @@
     "react-dom": ">=16.9.0"
   },
   "dependencies": {
-    "antd": "^3.23.1",
-    "react-scripts": "3.1.1"
+    "airbnb": "^0.0.2",
+    "antd": "^3.23.1"
   },
   "files": [
     "dist",
@@ -16,29 +16,19 @@
     "es"
   ],
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
+    "babel-eslint": "^10.0.2",
     "eslint": "^6.3.0",
-    "eslint-config-airbnb": "^18.0.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-loader": "^3.0.0",
-    "eslint-plugin-babel": "^5.3.0",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-jest": "^22.6.4",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-markdown": "^1.0.0",
-    "eslint-plugin-react": "^7.14.2",
-    "eslint-tinker": "^0.5.0"
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-promise": "^2.0.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "react-scripts": "3.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint:script": "eslint . --ext '.js,.jsx,.ts,.tsx'",
-    "lint-fix": "npm run lint-fix:script && npm run lint-fix:demo && npm run lint-fix:style",
-    "lint-fix:script": "npm run lint:script -- --fix",
-    "lint-fix:demo": "eslint-tinker ./components/*/demo/*.md",
-    "lint-fix:style": "npm run lint:style -- --fix"
+    "lint:script": "eslint . --ext '.js,.jsx,.ts,.tsx'"
   },
   "eslintConfig": {
     "extends": "react-app"
