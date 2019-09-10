@@ -1,34 +1,24 @@
 {
-  "name": "face-feature",
+  "name": "untitled3",
   "version": "0.1.0",
   "private": true,
-  "peerDependencies": {
-    "react": ">=16.9.0",
-    "react-dom": ">=16.9.0"
-  },
   "dependencies": {
-    "airbnb": "^0.0.2",
-    "antd": "^3.23.1"
-  },
-  "files": [
-    "dist",
-    "lib",
-    "es"
-  ],
-  "devDependencies": {
-    "babel-eslint": "^10.0.2",
     "eslint": "^6.3.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-promise": "^2.0.2",
-    "eslint-plugin-promise": "^4.2.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
+  },
+  "devDependencies": {
+    "promise": "^8.0.3",
+    "babel-eslint": "^10.0.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-promise": "^4.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint:script": "eslint . --ext '.js,.jsx,.ts,.tsx'"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
