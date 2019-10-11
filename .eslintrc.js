@@ -32,7 +32,7 @@ module.exports = {
     'react/prop-types': 0,
     'react/forbid-prop-types': 0,
     'react/jsx-indent': 0,
-    'react/jsx-wrap-multilines': ['error', { declaration: false, assignment: false }],
+    'react/jsx-wrap-multilines': ['error', {declaration: false, assignment: false}],
     'import/no-extraneous-dependencies': [
       'error',
       {
@@ -63,6 +63,7 @@ module.exports = {
     'react/no-did-update-set-state': 0, // TODO: remove later
     'react/require-default-props': 0,
     'react/default-props-match-prop-types': 0,
+    // "react/prefer-stateless-function": 0,
     'import/no-cycle': 0,
     'react/no-find-dom-node': 0,
     'no-underscore-dangle': 0,

@@ -1,10 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectId" id="1QJmnziJExTcXSKl8qUgjlaCnT1" />
+  <component name="ChangeListManager">
+    <list default="true" id="3f2063f5-9c27-415b-af7c-7414b04f1443" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/Table/Table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/Table/functionComponents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/face-feature.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/face-feature.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/User/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User/Form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Root.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1Qd2FezXmrWgKiCNX0FbD7lFN3g" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_interpreter_path" value="node" />
+    <property name="javascript.nodejs.core.library.configured.version" value="11.13.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ dailyUp" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="ts.external.directory.path" value="D:\Users\wyx\WebstormProjects\face-feature\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\wyx\WebstormProjects\face-feature" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\wyx\WebstormProjects\face-feature\src\components\User\Table" />
+      <recent name="D:\Users\wyx\WebstormProjects\face-feature\src\components\User\Form" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f2063f5-9c27-415b-af7c-7414b04f1443" name="Default Changelist" comment="" />
+      <created>1568086049161</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568086049161</updated>
+      <workItem from="1568086050398" duration="15257000" />
+      <workItem from="1568167760589" duration="6846000" />
+      <workItem from="1568253879812" duration="3044000" />
+      <workItem from="1568596967362" duration="1344000" />
+      <workItem from="1568628174304" duration="887000" />
+      <workItem from="1568682129419" duration="3756000" />
+      <workItem from="1569204371997" duration="4776000" />
+      <workItem from="1569288496494" duration="1861000" />
+      <workItem from="1569374076159" duration="4233000" />
+      <workItem from="1569551923800" duration="3437000" />
+      <workItem from="1569727067285" duration="46000" />
+      <workItem from="1569727132352" duration="5824000" />
+      <workItem from="1569809784987" duration="991000" />
+      <workItem from="1570499557646" duration="1678000" />
+      <workItem from="1570669995228" duration="14327000" />
+    </task>
+    <task id="LOCAL-00001" summary="2019年9月11日11:15:14  rewrite">
+      <created>1568171748409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568171748410</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2019年9月11日11:15:14  rewrite" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019年9月11日11:15:14  rewrite" />
   </component>
 </project>
