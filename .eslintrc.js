@@ -89,5 +89,6 @@ module.exports = {
     //     'semi': false
     //   }
     // ]
+    'no-console': 0
   },
 };

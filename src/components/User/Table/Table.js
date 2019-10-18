@@ -15,7 +15,7 @@ const TableBody = (props) => {
       <td>{row.name}</td>
       <td>{row.job}</td>
       <td>
-        <button onClick={() => props.removeCharacter(index)}>Delete</button>
+        <button type="button" onClick={() => props.removeCharacter(index)}>Delete</button>
       </td>
     </tr>
   ));
@@ -35,14 +35,34 @@ const TableBody = (props) => {
   }
 } */
 class Table extends Component {
+  state = {
+    time: '',
+  }
+
+  componentDidMount() {
+    const data = new Date();
+    setTimeout(() => {
+      this.setState({ time: data.toLocaleString() });
+    }, 1000);
+  }
+
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    console.log(prevProps);
+    console.log(prevState);
+    console.log(snapshot);
+  }
+
   render() {
     const { characterData, removeCharacter } = this.props;
 
     return (
-      <table>
-        <TableHeader />
-        <TableBody characterData={characterData} removeCharacter={removeCharacter} />
-      </table>
+      <div>
+        <table>
+          <TableHeader />
+          <TableBody characterData={characterData} removeCharacter={removeCharacter} />
+        </table>
+        <div>{this.state.time}</div>
+      </div>
     );
   }
 }
